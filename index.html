@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-A-Sketch</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Etch-A-Sketch</h1>
+
+        <div class="div-center">
+            <div class="div-button-edit">
+                <p>Choose mode:</p>
+                <input type="color" class="pick-color" value="#000000">
+                <button class="btn-rainbow">Rainbow</button>
+                <button class="btn-reset">Reset</button>
+            </div>
+
+            <div class="grid-container"></div>
+
+            <div class="div-range">
+                <p class="show-grid-size">3 x 3</p>
+
+                <input type="range" class="range vertical-heighest-first round" value="16" min="3" max="64">
+            </div>
+        </div>
+
+        <div class="div-bottom">
+            <div class="div-bottom-left">
+                <img src="./images/arrow-icon-1174.png" alt="Arrow Left" class="img-rotate-left">
+                <p>Soon</p>
+                <img src="./images/arrow-icon-1174.png" alt="Arrow Right" class="img-rotate-right">
+            </div>
+
+            <h1>Etch-A-Sketch</h1>
+
+            <div class="div-bottom-right">
+                <img src="./images/arrow-icon-1174.png" alt="Arrow Top" class="img-rotate-top">
+                <p>Soon</p>
+                <img src="./images/arrow-icon-1174.png" alt="Arrow Bottom" class="img-rotate-bottom">
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
